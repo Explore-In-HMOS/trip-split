@@ -1,0 +1,52 @@
+{
+  "routerMap": [
+    {
+      "name": "AddTripPage",
+      "pageSourceFile": "src/main/ets/pages/AddTripPage.ets",
+      "buildFunction": "AddTripPageBuilder",
+      "data": {
+        "description": "Adding new trip"
+      }
+    },
+    {
+      "name": "ExpenseDetailPage",
+      "pageSourceFile": "src/main/ets/pages/ExpenseDetailPage.ets",
+      "buildFunction": "ExpenseDetailPageBuilder",
+      "data": {
+        "description": "Summary page of an expense"
+      }
+    },
+    {
+      "name": "AddExpensePage",
+      "pageSourceFile": "src/main/ets/pages/AddExpensePage.ets",
+      "buildFunction": "AddExpensePageBuilder",
+      "data": {
+        "description": "to add an expense"
+      }
+    },
+    {
+      "name": "TripAnalysisPage",
+      "pageSourceFile": "src/main/ets/pages/TripAnalysisPage.ets",
+      "buildFunction": "TripAnalysisPageBuilder",
+      "data": {
+        "description": "Analysis page to show payments and debts"
+      }
+    },
+    {
+      "name": "OldTripExpensesPage",
+      "pageSourceFile": "src/main/ets/pages/OldTripExpensesPage.ets",
+      "buildFunction": "OldTripExpensesPageBuilder",
+      "data": {
+        "description": "to see oldTrip expenses"
+      }
+    },
+    {
+      "name": "PersonExpensesPage",
+      "pageSourceFile": "src/main/ets/pages/PersonExpensesPage.ets",
+      "buildFunction": "PersonExpensesPageBuilder",
+      "data": {
+        "description": "to see expenses of a person"
+      }
+    }
+  ]
+}
